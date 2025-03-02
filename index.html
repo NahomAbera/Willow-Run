@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Willow Run</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-title">Willow Run</div>
+    <div class="game-container">
+        <canvas id="gameCanvas"></canvas>
+        <div class="score-container">
+            <div id="score">Score: 0</div>
+            <div id="high-score">High Score: 0</div>
+        </div>
+        <div id="game-over" class="hidden">
+            <h2>Game Over!</h2>
+            <p>Your Score: <span id="final-score">0</span></p>
+            <p>High Score: <span id="final-high-score">0</span></p>
+            <button id="restart-button">Restart</button>
+        </div>
+    </div>
+    <div class="game-instructions">Press SPACE to jump over cars</div>
+    <script src="game.js"></script>
+</body>
+</html>
